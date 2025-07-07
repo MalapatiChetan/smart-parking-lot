@@ -1,0 +1,32 @@
+.slot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.slot-btn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+.slot-btn:hover {
+  transform: scale(1.05);
+}
+
+.slot-btn.available {
+  background-color: #28a745;
+  color: white;
+}
+
+.slot-btn.booked {
+  background-color: #dc3545;
+  color: white;
+  cursor: not-allowed;
+}

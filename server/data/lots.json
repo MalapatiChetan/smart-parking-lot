@@ -1,0 +1,14 @@
+[
+  {
+    "id": "lot1",
+    "name": "North Campus Lot",
+    "location": { "lat": 37.7749, "lng": -122.4194 },
+    "totalSlots": 10
+  },
+  {
+    "id": "lot2",
+    "name": "South Campus Lot",
+    "location": { "lat": 37.7849, "lng": -122.4094 },
+    "totalSlots": 8
+  }
+]

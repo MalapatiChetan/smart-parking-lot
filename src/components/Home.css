@@ -1,0 +1,11 @@
+.home-container {
+  padding: 3rem;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}

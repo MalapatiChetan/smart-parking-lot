@@ -1,0 +1,56 @@
+.card {
+  background: #ffffffcc;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.details {
+  margin-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.qr-code-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-btn,
+.back-btn {
+  padding: 0.7rem 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover,
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.back-btn {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.confirmation-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: sans-serif;
+}

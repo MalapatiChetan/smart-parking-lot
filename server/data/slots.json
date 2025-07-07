@@ -1,0 +1,10 @@
+{
+  "lot1": [
+    { "id": "s1", "number": 1, "status": "available" },
+    { "id": "s2", "number": 2, "status": "booked" }
+  ],
+  "lot2": [
+    { "id": "s3", "number": 3, "status": "available" },
+    { "id": "s4", "number": 4, "status": "available" }
+  ]
+}
