@@ -54,26 +54,19 @@
   cursor: pointer;
 }
 
-/* ❗ Mobile responsiveness */
+/* ✅ Responsive layout for mobile */
 @media (max-width: 768px) {
   .map-layout {
     flex-direction: column;
   }
 
   .map-section {
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
   }
 
   .slot-section {
-    height: 50vh;
-    width: 100%;
+    height: 40vh;
     border-left: none;
     border-top: 2px solid #dee2e6;
-    overflow-y: auto;
-  }
-
-  .slot-card {
-    font-size: 0.95rem;
   }
 }

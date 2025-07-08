@@ -47,7 +47,7 @@ const MapView = () => {
         <MapContainer
           center={[37.7749, -122.4194]}
           zoom={14}
-          style={{ height: "100vh", width: "100%" }}
+          style={{ height: "100%", width: "100%" }}
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           {lots.map((lot) => (
